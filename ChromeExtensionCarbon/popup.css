@@ -1,0 +1,107 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    width: 400px;
+    min-height: 250px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    /* Prevent overflow for the rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Header */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 22px;
+    color: #4CAF50;
+}
+
+/* Icon Section */
+.icon {
+    width: 60px;
+    /* Set width for the icon */
+    height: 60px;
+    /* Set height for the icon */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    /* Smooth animation for image updates */
+    border-radius: 50%;
+    /* Optional: Makes the icon circular */
+    object-fit: cover;
+    /* Ensures the image scales nicely */
+}
+
+/* Main Content */
+main {
+    flex-grow: 1;
+}
+
+main p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Smaller font size for the first three <p> tags */
+main p:nth-of-type(1),
+main p:nth-of-type(2),
+main p:nth-of-type(3) {
+    font-size: 14px; /* Adjust to your preferred smaller size */
+    font-weight: normal; /* Optional: Make the text lighter */
+}
+
+/* Button */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.btn:active {
+    background-color: #388e3c;
+    transform: scale(0.98);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #666;
+}
