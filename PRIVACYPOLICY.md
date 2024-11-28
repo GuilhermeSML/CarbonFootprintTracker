@@ -1,5 +1,5 @@
 # Privacy Policy
-Chrome extension that collects network data locally and calculates carbon footprint
+Chrome extension that collects network data locally and calculates carbon footprint locally
 
 Effective Date: November 28, 2024
 
